@@ -82,7 +82,8 @@
       .task-name{
         font-size: 1rem;
         padding: 0.1rem;
-        margin-left: 0.1rem;
+        margin-left: -0.3rem;
+        margin-right: -0.2rem;
       }
       .task-button{
         font-size: 0.7rem;
