@@ -155,19 +155,20 @@ export default {
 * {
   margin: 0;
   padding: 0;
+  font-size:10px;
 }
 body {
   background-color: var(--lilac);
 }
 table {
-  margin: 10px auto;
+  margin: 1rem;
   border-collapse: collapse;
 }
 td {
-  width: 200px;
+  width: 14vw;
 }
 tbody td {
-  height: 150px;
+  height: 17vh;
   border: 1px solid #a19ca7;
   vertical-align: top;
   background-color: white;

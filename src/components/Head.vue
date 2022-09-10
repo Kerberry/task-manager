@@ -42,12 +42,12 @@
 
 <style>
     h1{
-        font-size:50px;
-        margin-bottom: 12px;
+        font-size:5rem;
+        margin-bottom: 1.2rem;
     }
     h2 {
-        margin-top: 10px;
-        font-size:30px;
+        margin-top: 1rem;
+        font-size:3rem;
     }
     thead{
         background: linear-gradient(to right, var(--lilac), #000000, var(--lilac)); 
@@ -62,6 +62,12 @@
     }
     svg:hover{
         color:var(--hover);
+    }
+
+    @media (max-width:600px){
+        h1{
+            font-size: 3rem;
+        }
     }
     
 </style>

@@ -60,19 +60,32 @@
     .task-button{
       background-color: var(--lilac);
       border:none;
-      padding: 5px;
+      padding: 0.5rem;
       color:aliceblue;
-      margin-left: 5px;
+      margin-left: 0.5rem;
       border-radius: 10%;
       cursor: pointer;
+      font-size: 1rem;
     }
     .task-button:hover{
       color:var(--hover);
     }
     .task-name{
       cursor:pointer;
-      font-size:large;
+      font-size:2rem;
       font-style: normal;
       font-weight: normal;
+      word-break: break-all;
+    }
+
+    @media (max-width:600px){
+      .task-name{
+        font-size: 1rem;
+        padding: 0.1rem;
+        margin-left: 0.1rem;
+      }
+      .task-button{
+        font-size: 0.7rem;
+      }
     }
   </style>
