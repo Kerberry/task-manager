@@ -48,9 +48,15 @@ export default {
   background-color: var(--lilac);
 }
 .day-number {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 800;
   font-style: italic;
-  padding: 5px;
+  padding: 0.5rem;
+}
+
+@media (max-width:600px){
+  .day-number{
+    font-size: 1.5rem;
+  }
 }
 </style>
