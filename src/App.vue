@@ -173,4 +173,9 @@ tbody td {
   vertical-align: top;
   background-color: white;
 }
+@media(max-width:600px){
+  table{
+    margin: 0;
+  }
+}
 </style>
